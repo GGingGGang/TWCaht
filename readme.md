@@ -1,3 +1,5 @@
+제작
+
 1. 테일즈위버 채팅 기본 경로가
   c:/Nexon/Talesweaver/chatlog/ 로 되어있음. 이후 변경 가능하게 할 예정
   이 경로가 아니면 server.js를 열고 defaultDirectoryPath = '**'
