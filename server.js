@@ -1,12 +1,11 @@
 const express = require('express');
 const http = require('http');
-const socketIO = require('socket.io');
 const path = require('path');
 const chat5 = require('./chatUtils.js');
 const fs = require('fs');
 const app = express();
 const server = http.createServer(app);
-const io = socketIO(server);
+
 
 //-----------------------------------------------------------------------------------------
 
